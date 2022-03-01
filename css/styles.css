@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Quicksand');
+
+body {
+  background-image: url("../img/background.jpeg");
+  font-family: Arial;
+  font-size: 18px;
+  color: black;
+}
+
+main {
+  padding: 35px;
+}
+
+#titulo {
+  margin-left: 30px;
+  margin-top: 10px;
+  float: left;
+  display: inline-block;
+  color: black;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  vertical-align: baseline;
+  height: 110px;
+  width: 100%;
+  justify-content: center;
+}
+
+h2 {
+    color: black;
+    text-align: left;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+ul.nav-section{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }  
+  
+li a {
+    display: block;
+    color: black;
+    float: right;
+    text-align: center;
+    padding: 20px 16px;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: rgb(105, 105, 105);
+  }
